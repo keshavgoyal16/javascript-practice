@@ -1,0 +1,31 @@
+.all_india_data{
+border: 1px solid red;
+}
+#activeCases{
+    border:1px solid brown;
+    color: white;
+    background-color: brown;
+}
+#activeCases:hover{
+    background-color: green;
+}
+#activeCasesNew{
+    /* border:1px solid tomato; */
+    background-color: tomato;
+    color: white;
+}
+#recoveredNew{
+    /* border:1px solid green; */
+    color:white;
+    background-color: green;
+
+}
+#deaths{
+    border:1px solid red
+}
+#deathsNew{
+    border:1px solid yellow
+}
+#and-nik-div{
+    display: none;
+}

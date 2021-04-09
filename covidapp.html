@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./covid.css">
+
+</head>
+
+<body>
+    <script src='/covidapi.js'></script>
+    <h1>Covid inquiry</h1>
+    <div class="all_india_data">
+        <div>
+            <p>activecases are:</p>
+            <div id="activeCases"></div>
+        </div>
+        <div id="activeCasesNew"></div>
+        <div id="recoveredNew"></div>
+        <div id="deaths"></div>
+        <div id="deathsNew"></div>
+    </div>
+    <div id='showstates'>
+    
+        <h1 class="heading-and-nik" onclick="showdata()" ondblclick="hidedata()"> Andaman and nicobar</h1>
+        <div id="and-nik-div">
+            <div>
+                <div>infected:</div>
+                <div id='andpdatadecesed'></div>
+            </div>
+    
+            <div>
+                <div>recovered are:</div>
+                <div id='andp-data-rec'></div>
+            </div>
+    
+            <div>
+                <div>newly infected:</div>
+                <div id='andp-data-new-infect'></div>
+            </div>
+            <div>
+                <div>newly recoverd:</div>
+                <div id='andp-data-new-rec'></div>
+            </div>
+            <div>
+                <div>total infected:</div>
+                <div id='andp-data-total-infect'></div>
+            </div>
+        </div>
+        
+
+    </div>
+    <div id='all-states'></div>
+
+
+
+
+
+</body>
+
+</html>
